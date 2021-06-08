@@ -12,3 +12,4 @@ dependencies:
         - jupyterlab
         - h5py
         - zarr
+        - dask
