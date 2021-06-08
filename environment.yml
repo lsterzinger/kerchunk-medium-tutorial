@@ -1,13 +1,14 @@
-builtin:
-- datetime
-- glob
-- json
-- logging
-required:
-- fsspec
-- matplotlib
-- numpy
-- s3fs
-- tqdm
-- xarray
-
+name: fsspec-tutorial
+channels:
+        - conda-forge
+dependencies:
+        - python>=3.7
+        - fsspec
+        - matplotlib
+        - numpy
+        - s3fs
+        - tqdm
+        - xarray
+        - jupyterlab
+        - h5py
+        - zarr
