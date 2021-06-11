@@ -4,7 +4,7 @@ This example notebook accompanies this post I made on medium (link not yet activ
 
 Click on the Binder link below to run this notebook in a cloud environment. The notebook also works if executed locally. 
 
-[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/lsterzinger/fsspec-reference-maker-tutorial/main?filepath=tutorial.ipynb)
+[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/lsterzinger/fsspec-reference-maker-tutorial/8b5b6e4b0be7f9ec0216511a2e68efd11dcc9aea)
 
 # Environment setup
 ## The default Pangeo environment needs a couple tweaks to run this code properly
