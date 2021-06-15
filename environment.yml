@@ -17,4 +17,5 @@ dependencies:
         - dask
         - pip:
             - numcodecs>=0.8.0
-            - "--editable=git+https://github.com/intake/fsspec-reference-maker"
+            - git+https://github.com/intake/fsspec-reference-maker
+        #     - "--editable=git+https://github.com/intake/fsspec-reference-maker"
