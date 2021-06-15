@@ -3,6 +3,8 @@ channels:
         - conda-forge
 dependencies:
         - python==3.8
+        - git
+        - pip
         - fsspec
         - matplotlib
         - numpy
@@ -13,3 +15,6 @@ dependencies:
         - h5py
         - zarr
         - dask
+        - pip:
+            - numcodecs>=0.8.0
+            "--editable=git+https://github.com/intake/fsspec-reference-maker"
