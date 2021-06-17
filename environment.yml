@@ -12,7 +12,7 @@ dependencies:
         - tqdm
         - xarray
         - jupyterlab
-        - h5py
+        - h5py<3.2
         - zarr
         - dask
         - pip:

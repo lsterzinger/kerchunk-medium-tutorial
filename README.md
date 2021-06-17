@@ -4,7 +4,7 @@ This example notebook accompanies this post I made on medium (link not yet activ
 
 Click on the Binder link below to run this notebook in a cloud environment. The notebook also works if executed locally. 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lsterzinger/fsspec-reference-maker-tutorial/multizarr)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lsterzinger/fsspec-reference-maker-tutorial/main)
 
 # Environment setup
 ## The default Pangeo environment needs a couple tweaks to run this code properly
