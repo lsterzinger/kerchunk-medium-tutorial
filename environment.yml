@@ -8,7 +8,6 @@ dependencies:
         - fsspec
         - matplotlib
         - numpy
-        - s3fs
         - tqdm
         - xarray
         - jupyterlab
@@ -16,6 +15,6 @@ dependencies:
         - zarr
         - dask
         - pip:
-            - numcodecs>=0.8.0
-            - git+https://github.com/martindurant/fsspec-reference-maker@grib
-        #     - "--editable=git+https://github.com/intake/fsspec-reference-maker"
+            - s3fs
+            - numcodecs
+            - git+https://github.com/intake/fsspec-reference-maker
