@@ -2,14 +2,19 @@ name: fsspec-tutorial
 channels:
         - conda-forge
 dependencies:
-        - python>=3.7
+        - python==3.8
+        - git
+        - pip
         - fsspec
         - matplotlib
         - numpy
-        - s3fs
         - tqdm
         - xarray
         - jupyterlab
         - h5py<3.2
         - zarr
         - dask
+        - pip:
+            - s3fs
+            - numcodecs
+            - git+https://github.com/intake/fsspec-reference-maker
