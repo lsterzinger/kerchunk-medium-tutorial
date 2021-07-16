@@ -14,7 +14,10 @@ dependencies:
         - h5py<3.2
         - zarr
         - dask
+        - ujson
+        - hvplot
         - pip:
             - s3fs
             - numcodecs
+            - adlfs>=0.7.7
             - git+https://github.com/intake/fsspec-reference-maker
