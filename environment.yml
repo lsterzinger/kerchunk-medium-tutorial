@@ -16,8 +16,8 @@ dependencies:
         - dask
         - ujson
         - hvplot
+        - fsspec-reference-maker
         - pip:
             - s3fs
             - numcodecs
             - adlfs>=0.7.7
-            - git+https://github.com/intake/fsspec-reference-maker
