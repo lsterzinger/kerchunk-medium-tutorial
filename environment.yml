@@ -1,4 +1,4 @@
-name: fsspec-tutorial
+name: kerchunk-tutorial
 channels:
         - conda-forge
 dependencies:
