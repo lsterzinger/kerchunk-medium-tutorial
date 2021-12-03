@@ -16,7 +16,7 @@ dependencies:
         - dask
         - ujson
         - hvplot
-        - fsspec-reference-maker
+        - kerchunk
         - pip:
             - s3fs
             - numcodecs
